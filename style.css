@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    height: 75vh;
+    background-color:#FFE9E8;
+    display: flex;
+    padding-left: 10vw;
+    justify-content: space-evenly;
+    padding-top:65px ;
+}  
+h1{
+    width: 32vw;
+    
+}  
+h3{
+display: flex;
+
+align-items: center;
+
+}
+span{
+    color: red;
+}
+p{
+    font-size:20px;
+    display:flex;
+    
+} 
+.inicio{
+    height: 53vh;
+     width: 30vw;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+}
+.natalina{
+    width: 40vw;
+    height: 50vh;
+    
+}
+button{
+    width: 12vw;
+    height: 5vh;
+    background-color: #CD3C32; 
+    border-radius: 3px 3px 4px 4px;   
+    color: white;
+    border: none;
+}
+.presentes{
+    height: 100vh;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.embrulhados{
+    width: 40vw;
+    height: 55vh;
+}
+
+.Time{
+    Color:red;
+    font-size: 5em;
+    font-weight: bold;
+}
+.subtext{
+    display: flex;
+    align-items:center ;
+    width: 35vw;
+    
+}
+.meio{
+    
+    width: 30vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.generosi{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    height: 75vh;
+    gap: 20vw;
+}
+.segtext{
+    font-size: 35px;
+    font-weight: bold;
+}
+.Doar{
+    height: 50vh;
+}
+footer{
+    height: 11vh;
+    background-color: #FFE9E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right: 20vh;
+
+}
+.redes{
+    width: 25vw; 
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+@media(min-width:600px)and (max-width:1000px){
+    header{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .generosi{
+        flex-direction: column;
+    }
+}
